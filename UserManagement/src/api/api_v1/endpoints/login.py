@@ -1,11 +1,11 @@
-# from UserManagement.app.main import app
+# from UserManagement.src.main import src
 #
 #
-# @app.get("/")
+# @src.get("/")
 # async def root():
 #     return {"message": "Hello World"}
 #
 #
-# @app.get("/hello/{name}")
+# @src.get("/hello/{name}")
 # async def say_hello(name: str):
 #     return {"message": f"Hello {name}"}
